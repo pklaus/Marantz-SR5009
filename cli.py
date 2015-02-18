@@ -13,6 +13,7 @@ class SR5009_CLI(object):
         return self.args
 
 if __name__ == "__main__":
+    print("This is a test of the SR5009 CLI module")
     sc = SR5009_CLI()
     sc.parse()
     from pprint import pprint
